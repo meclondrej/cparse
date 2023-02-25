@@ -8,9 +8,14 @@ The CParse library by
                           |__/
 */
 
-// includes
+// builtin includes
 
+#include<stdbool.h>
+#include<string.h>
 
+// file includes
+
+#include"conversions/stod.h"
 
 // functions
 char* cparse_info() {
