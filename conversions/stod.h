@@ -1,5 +1,7 @@
 // string -> double
 
+#include<stdbool.h>
+
 double stod_div(int lvl) {
     double d = 10;
     for (int i = 1; i <= lvl; i++) {
