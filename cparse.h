@@ -16,8 +16,3 @@ The CParse library by
 // file includes
 
 #include"conversions/stod.h"
-
-// functions
-char* cparse_info() {
-    return "The CParse library by Ondrej Mecl is available";
-}
