@@ -8,11 +8,6 @@ The CParse library by
                           |__/
 */
 
-// builtin includes
-
-#include<stdbool.h>
-#include<string.h>
-
 // file includes
 
 #include"conversions/stod.h"
