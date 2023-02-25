@@ -1,0 +1,10 @@
+bin/
+*.exe
+*.dll
+*.out
+*.o
+*.obj
+*.hex
+*.pch
+*.gch
+.vscode/
