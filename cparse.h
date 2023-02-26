@@ -11,3 +11,4 @@ The CParse library by
 // file includes
 
 #include"conversions/stod.h"
+#include"conversions/stoi.h"
