@@ -43,6 +43,10 @@ bool stoi(char* str, int *out) {
                 j *= 10;
                 j += 9;
                 break;
+            case '\0':
+                break;
+            case '\n':
+                break;
             default:
                 return false;
         }
