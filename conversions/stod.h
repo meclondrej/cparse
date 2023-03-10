@@ -56,6 +56,10 @@ bool stod(char* str, double *out) {
                     d += 9 / stod_div(lvl);
                     lvl++;
                     break;
+                case '\0':
+                    break;
+                case '\n':
+                    break;
                 default:
                     return false;
             }
