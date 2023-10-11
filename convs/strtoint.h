@@ -32,6 +32,8 @@ bool strtoint(char x[], int len, int* pRes)
             res *= 10;
         res += (int)num;
     }
+    if (negative)
+        res *= -1;
     *pRes = res;
     return true;
 }
